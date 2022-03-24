@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bottons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;  
+  justify-content: space-between;
+}
+
+.addMarkers{
+  height: 27px;
+  width: 100px;
+  border: none;
+  border-radius: 4px;
+  background: #4cc9f0;
+  color: white;
+  cursor: pointer;
+}
+
+
+.addMarkers:hover{
+  height: 27px;
+  width: 100px;
+  border: 1px solid #4cc9f0;
+  border-radius: 4px;
+  background: white;
+  color: #4cc9f0;
+  cursor: pointer;
+}
+
+#map {
+  height: 90vh;
+  width: 90vw;
+}
